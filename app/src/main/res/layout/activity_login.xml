@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/remember_me_chkb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gotologin_activity_button"
+        android:layout_marginLeft="17dp"
+        android:gravity="center_vertical"
+        android:text="Remember me"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingClass" >
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/Admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="9dp"
+        android:padding="10dp"
+        android:text="I am Admin"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/NotAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="14dp"
+        android:layout_toEndOf="@+id/Admin"
+        android:padding="10dp"
+        android:text="Not Admin"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/inputs"
+        android:src="@drawable/applogo">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/Login_Email"
+        android:layout_width="393dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/Admin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/inputs"
+        android:hint="Phone"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"></EditText>
+
+    <Button
+        android:id="@+id/Login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login_Password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/butttons"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"></Button>
+
+    <EditText
+        android:id="@+id/Login_Password"
+        android:layout_width="393dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/Login_Email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/inputs"
+        android:hint="Password...."
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white">
+    </EditText>
+
+    <Button
+        android:id="@+id/gotologin_activity_button"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Login_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/inputs"
+        android:text="Need New Account?"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"></Button>
+
+
+</RelativeLayout>

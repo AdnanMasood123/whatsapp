@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/drawable/butttons.xml" value="0.2890625" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/drawable/inputs.xml" value="0.2890625" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/activity_admin_add_product.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/activity_admin_category.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/activity_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/activity_products_details.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/activity_register.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/activity_settings.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/display_products_layout.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/main_page_toolbar.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/layout/navigation_header.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Amazon/app/src/main/res/menu/navigation_menu.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

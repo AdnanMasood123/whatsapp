@@ -1,0 +1,105 @@
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_color"
+    app:cardElevation="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/inputs">
+
+            <TextView
+                android:id="@+id/Details_Product_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey_color"
+                android:text="Product Name"
+                android:textAlignment="center"
+                android:textColor="@color/App_Color"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/Details_Product_Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Details_Product_Image"
+                android:background="@color/grey_color"
+                android:text="Product Price"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/Details_Product_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Details_Product_Price"
+                android:background="@color/grey_color"
+                android:text="Product Description"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/Details_Product_Owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Details_Product_Description"
+                android:background="@color/grey_color"
+                android:text="Added By"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/Details_Product_Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Details_Product_Owner"
+                android:background="@color/grey_color"
+                android:text="Date"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/Details_Product_Time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Details_Product_Date"
+                android:background="@color/grey_color"
+                android:text="Time"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp">
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/Details_Product_Image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/Details_Product_Name"
+                android:scaleType="centerCrop"></ImageView>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
